@@ -16,3 +16,4 @@ for x in lst:
 result.extend([target_value] * zero_count)
 print("Результат:", result)
 
+
