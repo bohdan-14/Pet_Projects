@@ -33,15 +33,6 @@ n2 = random_list[2]
 n3 = random_list[-1]
 new_list = [n1, n2, n3]
 print ('Новый список:', new_list)
-lst = [1,3,5]
-if not lst:
-    result = 0
-else:
-    sum_even_indices = 0
-    for i in range(0, len(lst), 2):
-        sum_even_indices += lst[i]
-    result = sum_even_indices * lst[-1]
-print(result)
 
 
 
