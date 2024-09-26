@@ -13,6 +13,7 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
 
 #12/2
 
+
 class Item:
     def __init__(self, name, price, description, dimensions):
         self.name = name
